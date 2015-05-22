@@ -98,6 +98,11 @@ h5, h6 {
     max-width: 960px;
 }
 
+.cover-pic {
+    background: url("../Images/banner.jpg") no-repeat;
+    width: 100%;
+}
+
 #body {
     background-color: #efeeef;
     clear: both;

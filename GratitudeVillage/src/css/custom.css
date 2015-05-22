@@ -1,0 +1,10 @@
+﻿.navbar-wrapper {
+}
+
+body {
+    border-top: 10px solid #000000;
+}
+
+.jumbotron {
+    background: #0000ff url("/Images/banner.jpg") no-repeat top center;
+}
