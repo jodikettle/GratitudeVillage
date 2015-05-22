@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GratitudeVillage.Tests", "G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GratitudeVillage", "GratitudeVillage\GratitudeVillage.csproj", "{8EDB0A54-5128-401F-98D9-F6F6A99F578D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GratitudeVillage.Repository", "GratitudeVillage.Repository\GratitudeVillage.Repository.csproj", "{4D8953E8-43AA-47A2-9B0E-64DC0B05FA84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8EDB0A54-5128-401F-98D9-F6F6A99F578D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EDB0A54-5128-401F-98D9-F6F6A99F578D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EDB0A54-5128-401F-98D9-F6F6A99F578D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D8953E8-43AA-47A2-9B0E-64DC0B05FA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D8953E8-43AA-47A2-9B0E-64DC0B05FA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D8953E8-43AA-47A2-9B0E-64DC0B05FA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D8953E8-43AA-47A2-9B0E-64DC0B05FA84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

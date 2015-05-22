@@ -8,3 +8,13 @@ body {
 .jumbotron {
     background: #0000ff url("/Images/banner.jpg") no-repeat top center;
 }
+.cover-pic {
+    margin: 30px;
+    padding: 30px;
+    background: url("../Images/banner.jpg");
+    min-height: 300px;
+
+}
+.content-wrapper {
+
+}

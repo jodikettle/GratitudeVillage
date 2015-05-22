@@ -99,9 +99,11 @@ h5, h6 {
 }
 
 .cover-pic {
-    background: url("../Images/banner.jpg") no-repeat;
-    width: 100%;
+    padding: 40px;
+    background: url("../Images/banner.jpg") right center ;
+    background-size: 100%;
 }
+
 
 #body {
     background-color: #efeeef;

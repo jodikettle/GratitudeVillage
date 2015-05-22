@@ -6,6 +6,8 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using AutoMapper;
+using GratitudeVillage.Models.ViewModels;
 
 namespace GratitudeVillage
 {
@@ -17,6 +19,8 @@ namespace GratitudeVillage
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
+
+            Mapper.CreateMap<Gratitude, Repository.Models.Gratitude>().ReverseMap();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

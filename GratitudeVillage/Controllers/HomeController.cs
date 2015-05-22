@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
+using GratitudeVillage.Models.ViewModels;
 
 namespace GratitudeVillage.Controllers
 {
@@ -10,9 +10,10 @@ namespace GratitudeVillage.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            ViewBag.Message = "What are you grateful for?";
+            var list = new List<Gratitude>();
 
-            return View();
+            return View(list);
         }
 
         public ActionResult About()
